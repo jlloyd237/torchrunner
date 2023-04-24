@@ -1,6 +1,7 @@
 import pickle
 from functools import wraps, partial, update_wrapper
-from collections import Mapping, defaultdict
+from collections import defaultdict
+from collections.abc import Mapping
 
 import torch
 
